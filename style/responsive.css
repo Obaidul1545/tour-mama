@@ -1,0 +1,119 @@
+/* laptop device up to 1025px*/
+@media screen and (max-width: 1200px) {
+    #banner_container .banner_text h1 {
+    font-size: 47px;
+  }
+  /* ======== */
+  #services_container .service {
+    gap: 40px;
+  }
+    #services_container .service .service_card {
+    padding: 40px 10px;
+    }
+    #services_container .service .service_card h2 {
+    font-size: 20px;
+    margin: 34px 0 14px;
+    }
+}
+
+/* tablet device up to 641 */
+@media screen and (max-width: 1024px) {
+    #banner_container .banner {
+        flex-direction: column-reverse;
+    }
+    #banner_container .banner_image {
+    width: 100%;
+    }
+    #banner_container .banner_text {
+    width: 100%;
+    text-align: center;
+    }
+    /* ========== */
+    #services_container .service {
+    flex-direction: column;
+    width: 100%;
+    }
+    #services_container .service .service_card {
+     width: 100%;
+    }
+        #services_container .service .service_card h2 {
+        font-size: 30px;
+        margin: 40px 0 25px;
+    }
+    .header h2 {
+    font-size: 40px;
+    }
+    /* ========= */
+    #story_part .story {
+    flex-direction: column;
+    }
+    #story_part .story .image img{
+    width: 100%;
+    }
+     #story_part .story .text{
+        text-align: center;
+     }
+     /* ======= */
+     #tourist_part .text_card {
+    background-size: 160px auto;
+    }
+    /* ====== */
+    
+    #footer_part .container .social_icon img {
+        width: 22px;
+        margin-right: 16px;
+    }
+    #footer_part {
+    padding: 10px 0;
+}
+}
+
+/* mobile device  up to 425px */
+@media screen and (max-width: 640px) {
+    #banner_container .banner_text h1 {
+    font-size: 35px;
+    }
+    .btn, .btn_white {
+    padding: 12px 22px;
+    }
+    .header h4 {
+    font-size: 16px;
+    margin-bottom: 0px;
+    letter-spacing: 5px;
+    }
+    .header h2 {
+    font-size: 28px;
+    }
+    /* ==== */
+        #services_container .service .service_card h2 {
+        font-size: 24px;
+    }
+        #services_container .service .service_card {
+        width: 100%;
+        padding: 54px 32px;
+    }
+    /* ========= */
+    #story_part .story .text h2 {
+    font-size: 28px;
+    }
+    /* ========== */
+    #countries_part .countries {
+        flex-direction: column;
+        text-align: center;
+    }
+    #tourist_part .text_card p {
+        text-align: justify;
+    }
+    #tourist_part .text_card {
+    background-position: calc(100% - 106px) calc(100% - 86px);  
+    }
+    /* ======= */
+    #footer_part .container p {
+    font-size: 12px;
+    }
+    #footer_part .container .social_icon img {
+    width: 18px;
+
+    }
+
+}
